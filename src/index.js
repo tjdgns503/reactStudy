@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './react/App';
-import State from './react/App';
-import Counter from './react/counter';
-import Hooks from './react/hooks';
-import Multi from './react/multi';
-import UseEffect from './react/useEffect';
+import App from './App';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));

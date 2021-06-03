@@ -1,10 +1,9 @@
 import React, {useRef, useEffect} from 'react';
 
 export default function App(){
-
     const inputRef = useRef();
     useEffect(()=> {
-        inputRef.current.focus();
+        inputRef.current.foucs();
     },[]);
 
     return (
